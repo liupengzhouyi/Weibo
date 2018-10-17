@@ -29,6 +29,7 @@
 		065F4DB721776183009C5732 /* lpWBMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lpWBMessageViewController.swift; sourceTree = "<group>"; };
 		065F4DB9217761AD009C5732 /* lpWBDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lpWBDiscoverViewController.swift; sourceTree = "<group>"; };
 		065F4DBB217761C5009C5732 /* lpWBProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lpWBProfileViewController.swift; sourceTree = "<group>"; };
+		065F4DBE217764D7009C5732 /* lpWeibo_Bribge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lpWeibo_Bribge.h; sourceTree = "<group>"; };
 		0692F82021764ABF0060869F /* Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0692F82321764ABF0060869F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0692F82521764ABF0060869F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		065F4DA121775C69009C5732 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				065F4DBD2177644E009C5732 /* Additions */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -135,6 +137,13 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		065F4DBD2177644E009C5732 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
 		0692F81721764ABF0060869F = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +165,7 @@
 			children = (
 				065F4D9E21775C39009C5732 /* Classes */,
 				0692F82321764ABF0060869F /* AppDelegate.swift */,
+				065F4DBE217764D7009C5732 /* lpWeibo_Bribge.h */,
 				0692F82521764ABF0060869F /* ViewController.swift */,
 				0692F82721764ABF0060869F /* Main.storyboard */,
 				0692F82A21764AC40060869F /* Assets.xcassets */,
@@ -191,7 +201,7 @@
 		0692F81821764ABF0060869F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = lp;
+				CLASSPREFIX = lpWB;
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "刘鹏";
@@ -328,6 +338,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -382,6 +393,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -400,6 +412,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.liupengstudy.Weibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -418,6 +431,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.liupengstudy.Weibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
